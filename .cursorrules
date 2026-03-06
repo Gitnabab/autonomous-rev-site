@@ -1,0 +1,93 @@
+# Antigravity Agency — Constraints & Instructions
+
+## Agency Identity
+- **Name**: Antigravity
+- **Mission**: Deliver premium, high-converting websites to local businesses at zero upfront cost — then monetize through ongoing value.
+- **Target Market**: Local businesses in India (pest control, home services, clinics, restaurants, coaching centers, etc.)
+- **Positioning**: "We build you a stunning website for FREE. You only pay when it starts working for you."
+
+---
+
+## Razor / Blade Strategy
+
+### The Razor (FREE — Gets You In The Door)
+- Free website preview: A fully functional, mobile-first, premium-looking website
+- Built in < 24 hours using our master-template system
+- Deployed on Vercel (free tier) with a temporary subdomain
+- Client sees it LIVE before paying anything
+
+### The Blades (PAID — Where We Make Money)
+- **Custom Domain Setup**: ₹2,000 – ₹5,000 (one-time)
+- **Monthly Maintenance & Hosting**: ₹500 – ₹2,000/month
+- **Google My Business Optimization**: ₹1,500 – ₹3,000 (one-time)
+- **WhatsApp Business Integration**: ₹1,000 – ₹2,500
+- **SEO Add-on (Monthly)**: ₹1,500 – ₹5,000/month
+- **Missed Call Text-Back Bot**: ₹1,000 – ₹3,000/month
+- **Social Media Management**: ₹3,000 – ₹8,000/month
+
+---
+
+## Tech Stack Rules
+
+### Website Building
+- **Framework**: Vite + TypeScript (master-template based)
+- **Styling**: Vanilla CSS — premium, mobile-first, animated
+- **Deployment**: Vercel (free tier)
+- **Domains**: Namecheap (programmatic via API when automated)
+- **Source template**: `c:\Users\being\Antigravity\web_building\master-template\`
+
+### Automation & Tools
+- **Invoicing**: Zoho Invoice (free forever plan)
+- **Payments**: Razorpay (India) / Stripe (international)
+- **Email**: Zoho Mail (free tier for branded email)
+- **CRM/Outreach**: Manual → GoHighLevel OPM hack (Phase 2)
+
+---
+
+## Client Workflow
+
+```
+1. LEAD       → Find local business (JustDial, Google Maps, cold outreach)
+2. PREVIEW    → Clone master-template, brand it for them, deploy to Vercel
+3. SHOW       → Send WhatsApp/call: "Your website is live at [URL], check it out"
+4. CLOSE      → They love it → Sign up for domain + maintenance plan
+5. DEPLOY     → Buy domain (Namecheap), connect to Vercel, set up DNS + SSL
+6. HANDOVER   → Branded email, analytics, Google My Business setup
+7. RETAIN     → Monthly maintenance, SEO, add-ons = recurring revenue
+```
+
+---
+
+## Quality Standards
+
+1. **No placeholder content** — every site must have real business info, real photos where possible
+2. **Mobile-first** — 80%+ of Indian local business traffic is mobile
+3. **Premium design** — vibrant colors, smooth animations, glassmorphism, micro-interactions
+4. **Fast** — must score 90+ on Lighthouse performance
+5. **SEO-ready** — proper meta tags, semantic HTML, structured data
+6. **WhatsApp CTA** — every site must have a prominent WhatsApp button (primary CTA in India)
+
+---
+
+## File & Folder Conventions
+
+```
+Building the agency/
+├── .cursorrules          ← This file (agency rules & strategy)
+├── README.md             ← Project overview & launch roadmap
+├── docs/                 ← Strategy docs, pitch templates, scripts
+├── automation/           ← Webhooks, API scripts, deployment automation
+└── assets/               ← Shared agency assets (logo, brand kit)
+```
+
+Client websites live separately in: `c:\Users\being\Antigravity\web_building\`
+
+---
+
+## Key Principles
+
+1. **Zero cost to start** — use only free tiers until revenue comes in
+2. **Speed wins** — deliver previews in hours, not weeks
+3. **Show, don't tell** — always show the live site, never send mockups
+4. **Local language** — be ready to support Hindi/Bengali content
+5. **Recurring revenue** — always sell the subscription, not the one-time project
