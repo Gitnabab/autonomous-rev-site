@@ -1,29 +1,51 @@
-# Antigravity Agency — Constraints & Instructions
+# AUTONOMOUS.REV. — Constraints & Instructions
 
 ## Agency Identity
-- **Name**: Antigravity
-- **Mission**: Deliver premium, high-converting websites to local businesses at zero upfront cost — then monetize through ongoing value.
-- **Target Market**: Local businesses in India (pest control, home services, clinics, restaurants, coaching centers, etc.)
-- **Positioning**: "We build you a stunning website for FREE. You only pay when it starts working for you."
+- **Name**: AUTONOMOUS.REV. (Autonomous Revenue Engines)
+- **Mission**: Engineer high-performance AI systems and tech assets that solve specific business revenue problems (missed leads, slow response, zero automation).
+- **Positioning**: "We don't just build websites. We build engines that find and close your revenue gaps."
+- **Target Market**:## The Revenue Sequence (Mission Protocol)
+*Choose the entry point based on the client's current gap.*
 
----
+### 1. The Razor (The Entry Logic)
+**Option A: The Website Preview** (If site is bad/slow/missing).
+- A premium-performance speed preview built in < 2 hours.
 
-## Razor / Blade Strategy
+**Option B: The AI Revenue Audit** (If site exists but is static).
+- A "Snapshot" showing how many leads they are losing due to no automation (missed-call bots, Google Map gaps).
 
-### The Razor (FREE — Gets You In The Door)
-- Free website preview: A fully functional, mobile-first, premium-looking website
-- Built in < 24 hours using our master-template system
-- Deployed on Vercel (free tier) with a temporary subdomain
-- Client sees it LIVE before paying anything
-
-### The Blades (PAID — Where We Make Money)
-- **Custom Domain Setup**: ₹2,000 – ₹5,000 (one-time)
-- **Monthly Maintenance & Hosting**: ₹500 – ₹2,000/month
-- **Google My Business Optimization**: ₹1,500 – ₹3,000 (one-time)
-- **WhatsApp Business Integration**: ₹1,000 – ₹2,500
+### 2. The Blade (The Problem Solver)
+- We sell the **Solution** to the gap identified in the Razor.
 - **SEO Add-on (Monthly)**: ₹1,500 – ₹5,000/month
 - **Missed Call Text-Back Bot**: ₹1,000 – ₹3,000/month
 - **Social Media Management**: ₹3,000 – ₹8,000/month
+
+---
+
+## The Autonomous Revenue Sequence (Mission Protocol)
+*Follow this sequence for 100% execution consistency.*
+
+### Phase 1: The Razor Deployment (Lead Generation)
+1. **Identify**: Find local businesses with slow/bad mobile sites.
+2. **Execute**: Use the `master-template` to build a preview in < 2 hours.
+3. **Draft**: Send the `razor_pitch_scripts.md` via WhatsApp.
+4. **Goal**: Permission to send the live Vercel link.
+
+### Phase 2: The Logic Bridge (Conversion)
+1. **The Hook**: Client views the link on their mobile device. 
+2. **The Contrast**: Compare their old site VS our performance preview.
+3. **The Pivot**: Introduce the "Blades" (Hosting/Domain/Bots).
+4. **The Money**: Send Razorpay link for selected Tier (Launch/Growth/Scale).
+
+### Phase 3: The Machine (Fulfillment)
+1. **Trigger**: Payment detected via Razorpay notification.
+2. **Domain**: Purchase domain (Namecheap) and verify email.
+3. **DNS**: Point domain to Vercel (Production Build).
+4. **Bot**: (If Tier 2/3) Configure the WhatsApp lead routing to client's phone.
+
+### Phase 4: Retention (Scale)
+1. **Report**: Send monthly automated performance report from Zoho/Analytics.
+2. **Upsell**: Move Launch Blade clients to Growth Blade once they see leads coming in.
 
 ---
 
