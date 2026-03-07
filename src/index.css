@@ -1,60 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@400..800&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --color-brand-blue: #2563eb;
+  --color-brand-accent: #CA8A04;
   --color-brand-black: #000000;
-  --color-brand-slate: #1e293b;
 }
 
 :root {
-  background-color: black;
-  color: #94a3b8;
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #000000;
+  color: #a8a29e;
+  font-family: 'Space Mono', monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-syne {
+  font-family: 'Syne', sans-serif;
 }
 
 body {
   margin: 0;
   overflow-x: hidden;
+  background-color: #000000;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card:hover {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5);
 }
 
 .brutalist-card {
-  border: 2px solid #1e293b;
-  background-color: black;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #050505;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .brutalist-card:hover {
-  border-color: #2563eb;
+  border-color: #CA8A04;
   transform: translateY(-4px);
-  box-shadow: 0 0 20px rgba(37, 99, 235, 0.2);
+  box-shadow: 0 0 30px rgba(202, 138, 4, 0.15);
 }
 
 .brutalist-button {
-  background: black;
-  border: 2px solid white;
-  color: white;
-  padding: 0.75rem 1.5rem;
+  background: #000000;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  padding: 1rem 2rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  transition: all 0.2s ease;
+  letter-spacing: 0.15em;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   cursor: pointer;
+  font-family: 'Space Mono', monospace;
 }
 
 .brutalist-button:hover {
-  background: white;
-  color: black;
+  background: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
 }
 
-.blue-glow {
-  text-shadow: 0 0 10px rgba(37, 99, 235, 0.5);
+.accent-glow {
+  text-shadow: 0 0 15px rgba(202, 138, 4, 0.5);
 }
 
 /* Animations */
 .reveal {
   opacity: 0;
   transform: translateY(20px);
-  transition: all 0.6s ease-out;
+  transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .reveal.visible {
