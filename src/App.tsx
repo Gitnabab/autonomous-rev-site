@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Shield, Zap, MessageSquare, Globe, ArrowRight, MousePointer2, FlaskConical, Bot } from 'lucide-react';
+import { Shield, Zap, MessageSquare, Globe, ArrowRight, MousePointer2, FlaskConical, Bot, CheckCircle2, Play, Users, Cpu, Star, Quote } from 'lucide-react';
 
 const Header = () => (
     <header className="fixed top-0 w-full z-50 px-6 py-8 flex justify-between items-center bg-black/80 backdrop-blur-md border-b border-slate-900">
@@ -114,10 +114,16 @@ const Arsenal = () => (
 const ShowcaseCard = ({ title, url, image }: any) => (
     <motion.div
         whileHover={{ scale: 1.02 }}
-        className="brutalist-card overflow-hidden group"
+        className="brutalist-card overflow-hidden group cursor-pointer"
+        onClick={() => window.open(url, '_blank')}
     >
         <div className="aspect-video bg-slate-900 relative">
-            <img src={image} alt={title} className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity" />
+            <img src={image} alt={title} className="w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity" />
+            <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                <div className="w-16 h-16 rounded-full bg-blue-600/90 flex items-center justify-center backdrop-blur-sm shadow-[0_0_30px_rgba(37,99,235,0.5)]">
+                    <Play className="w-6 h-6 text-white ml-1 fill-white" />
+                </div>
+            </div>
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
         </div>
         <div className="p-6 space-y-4">
@@ -291,6 +297,152 @@ const LeadEngine = () => (
     </section>
 )
 
+const ProcessStep = ({ number, title, desc, icon: Icon }: any) => (
+    <div className="relative pl-12 pb-16 last:pb-0 group">
+        <div className="absolute left-[20px] top-10 bottom-0 w-px bg-slate-900 group-last:bg-transparent"></div>
+        <div className="absolute left-0 top-0 w-10 h-10 bg-black border-2 border-slate-800 rounded-full flex items-center justify-center text-slate-500 font-black group-hover:border-blue-600 group-hover:text-blue-600 transition-colors z-10">
+            {number}
+        </div>
+        <div className="space-y-4 pt-1">
+            <div className="flex items-center gap-4">
+                <Icon className="w-6 h-6 text-blue-600" />
+                <h3 className="text-2xl font-black text-white uppercase tracking-tight">{title}</h3>
+            </div>
+            <p className="text-slate-400 font-medium leading-relaxed max-w-xl">{desc}</p>
+        </div>
+    </div>
+);
+
+const Process = () => (
+    <section id="process" className="py-32 px-6 bg-black border-y border-slate-900">
+        <div className="max-w-4xl mx-auto space-y-20">
+            <div className="text-left space-y-4">
+                <div className="flex items-center gap-4 text-blue-600 mb-6">
+                    <div className="h-px w-12 bg-blue-600"></div>
+                    <span className="font-black uppercase tracking-[0.2em] text-xs">Transparency</span>
+                </div>
+                <h2 className="text-4xl md:text-6xl font-black text-white italic tracking-tighter uppercase leading-none">THE DEPLOYMENT PROTOCOL</h2>
+                <p className="text-slate-400 font-medium text-lg italic mt-4 max-w-xl">Our "foot-in-the-door" process. From first contact to autonomous operation.</p>
+            </div>
+
+            <div className="p-12 brutalist-card border-slate-900 relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-64 h-64 bg-blue-600/5 blur-[100px] pointer-events-none"></div>
+                <ProcessStep
+                    number="1"
+                    title="Initial Recon"
+                    desc="We identify high-value local targets via automated lead scraping and deploy targeted WhatsApp outreach sequences offering immense upfront value."
+                    icon={Bot}
+                />
+                <ProcessStep
+                    number="2"
+                    title="The Razor (Free Preview)"
+                    desc="We utilize Google AI Studio and our proprietary Codebase Generator to deploy a live, high-converting, mobile-first website preview in under 20 minutes—completely free."
+                    icon={MousePointer2}
+                />
+                <ProcessStep
+                    number="3"
+                    title="The Blade (Upsell)"
+                    desc="Once value is proven and trust established, we attach the operational engine: custom domain hosting, SSL, SEO optimization suites, and ongoing monthly maintenance."
+                    icon={Zap}
+                />
+                <ProcessStep
+                    number="4"
+                    title="Autonomous Scaling"
+                    desc="The final stage unlocks advanced assets like Missed-Call WhatsApp Bots and AI Sales Agents to turn the static asset into an autonomous lead conversion machine."
+                    icon={Shield}
+                />
+            </div>
+        </div>
+    </section>
+);
+
+const AboutUs = () => (
+    <section id="about" className="py-32 px-6">
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 items-center">
+            <div className="lg:w-1/2 space-y-8">
+                <div className="flex items-center gap-4 text-blue-600 mb-2">
+                    <div className="h-px w-12 bg-blue-600"></div>
+                    <span className="font-black uppercase tracking-[0.2em] text-xs">Who We Are</span>
+                </div>
+                <h2 className="text-4xl md:text-6xl font-black text-white italic tracking-tighter uppercase leading-none">THE ARCHITECTS</h2>
+                <p className="text-xl text-slate-400 font-medium leading-relaxed">
+                    We are a specialized strike team engineering premium AI-powered assets for small businesses. We don't just build websites; we construct <span className="text-white font-bold">digital monopolies</span>.
+                </p>
+                <div className="flex flex-col gap-6 pt-4">
+                    <div className="flex items-start gap-4 p-6 bg-slate-900/30 border border-slate-800 border-l-4 border-l-blue-600">
+                        <Cpu className="w-8 h-8 text-blue-600 shrink-0 mt-1" />
+                        <div>
+                            <h4 className="text-white font-bold text-lg mb-1 uppercase tracking-wider">Advanced AI Tooling</h4>
+                            <p className="text-slate-400 text-sm">We leverage Gemini Pro for deep market research and Google AI Studio for unprecedented rapid generation capabilities.</p>
+                        </div>
+                    </div>
+                    <div className="flex items-start gap-4 p-6 bg-slate-900/30 border border-slate-800 border-l-4 border-l-blue-600">
+                        <Users className="w-8 h-8 text-blue-600 shrink-0 mt-1" />
+                        <div>
+                            <h4 className="text-white font-bold text-lg mb-1 uppercase tracking-wider">Elite UI/UX Expertise</h4>
+                            <p className="text-slate-400 text-sm">Our "Premium Brutalist" design architecture guarantees your asset stands out, drives trust, and converts at enterprise levels.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="lg:w-1/2 w-full aspect-square md:aspect-video lg:aspect-square relative flex items-center justify-center p-8">
+                <div className="absolute w-full h-full border border-slate-900 bg-slate-900/10"></div>
+                <div className="absolute w-[90%] h-[90%] border border-slate-800 bg-slate-800/20 rotate-3"></div>
+                <div className="absolute w-[80%] h-[80%] border border-blue-900/30 bg-black/80 backdrop-blur -rotate-3 p-8 flex flex-col items-center justify-center text-center space-y-6 shadow-2xl">
+                    <div className="w-20 h-20 border-2 border-blue-600 flex items-center justify-center">
+                        <Bot className="w-10 h-10 text-white" />
+                    </div>
+                    <div>
+                        <div className="font-black tracking-widest text-white text-xl uppercase">Nabab</div>
+                        <div className="text-blue-500 font-bold text-xs uppercase tracking-widest mt-2">Lead Systems Architect</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+);
+
+const TestimonialCard = ({ client, role, quote, rating = 5 }: any) => (
+    <div className="brutalist-card p-10 flex flex-col justify-between h-full bg-slate-900/20">
+        <div className="space-y-6">
+            <Quote className="w-10 h-10 text-slate-800" />
+            <p className="text-white text-lg font-medium leading-relaxed italic">"{quote}"</p>
+        </div>
+        <div className="pt-8 flex items-center gap-4 mt-8 border-t border-slate-800">
+            <div className="w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center">
+                <Star className="w-6 h-6 text-blue-600 fill-blue-600" />
+            </div>
+            <div>
+                <h4 className="text-white font-bold uppercase tracking-wider">{client}</h4>
+                <div className="text-slate-500 text-xs font-bold uppercase tracking-widest">{role}</div>
+            </div>
+        </div>
+    </div>
+);
+
+const Testimonials = () => (
+    <section id="testimonials" className="py-32 px-6 bg-black border-y border-slate-900">
+        <div className="max-w-7xl mx-auto space-y-20">
+            <div className="flex flex-col items-center text-center space-y-4">
+                <h2 className="text-4xl md:text-7xl font-black text-white italic tracking-tighter uppercase leading-none">FIELD REPORTS</h2>
+                <p className="text-slate-400 max-w-lg font-medium text-lg italic mt-4">Actual intelligence from deployed assets on the front lines.</p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <TestimonialCard
+                    client="Vikram S."
+                    role="Owner, Emerald Pest Control"
+                    quote="I was skeptical about the 'zero upfront cost', but the live preview they built blew me away. Within a month of taking the paid plan, our online leads jumped 30%. The AI WhatsApp bot alone is worth gold."
+                />
+                <TestimonialCard
+                    client="Rahul D."
+                    role="Founder, SS Solutions"
+                    quote="These guys operate on another level. The UI/UX makes my small local business look like an enterprise corp. We saw a 15% reduction in acquisition costs simply because the asset converts so efficiently."
+                />
+            </div>
+        </div>
+    </section>
+);
+
 const Footer = () => (
     <footer className="py-20 px-6 border-t border-slate-900 text-center">
         <div className="text-slate-500 text-xs font-bold uppercase tracking-[0.5em]">AUTONOMOUS.REV © 2026</div>
@@ -303,9 +455,12 @@ export default function App() {
             <Header />
             <main>
                 <Hero />
+                <Process />
                 <Arsenal />
                 <Showcase />
                 <CaseStudies />
+                <AboutUs />
+                <Testimonials />
                 <TheLab />
                 <LeadEngine />
             </main>
