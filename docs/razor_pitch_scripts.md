@@ -9,7 +9,7 @@
 
 **Subject**: (No subject, direct message)
 
-"Hi [Owner Name], this is Nabab from **AUTONOMOUS.REV.**
+"Hi [Owner Name], this is Nabab from **AutoLeadForce**
 
 I was looking at [Business Name]'s online presence and noticed your current site is [slow / not mobile-friendly / non-existent]. 
 
@@ -55,7 +55,7 @@ Should we wire up the domain today?"
 **Goal**: Target the gap in their current system (Missed calls / Slow response).
 
 **Message**:
-"Hi [Owner Name], this is Nabab from **AUTONOMOUS.REV.**
+"Hi [Owner Name], this is Nabab from **AutoLeadForce**
 
 I checked out your website — it looks good! However, I noticed a major **Revenue Gap** in your setup: your business is likely losing 30-40% of leads because you don't have an **Autonomous Response Engine**.
 

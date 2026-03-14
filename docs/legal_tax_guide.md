@@ -1,4 +1,4 @@
-# AUTONOMOUS.REV. — Legal & Tax Guide (India)
+# AutoLeadForce — Legal & Tax Guide (India)
 
 To move from "Freelancer" to "Agency," follow these zero-cost legal steps to establish your identity.
 
@@ -12,7 +12,7 @@ This is your official "Business License" from the Govt of India. It is free and 
 - **Details Needed**: 
     - **Aadhaar Number** (linked to mobile for OTP).
     - **PAN Number**.
-    - **Enterprise Name**: AUTONOMOUS.REV.
+    - **Enterprise Name**: AutoLeadForce
     - **NIC Code**: 62011 (Software publishing, consultancy and related activities).
     - **Address**: Your primary work location (Home is fine).
 
@@ -32,7 +32,7 @@ Since we are following the Zero-Cost model, we optimize for minimum compliance.
 ## 3. Banking Protocol
 To track the **Autonomous Revenue Engine**, keep the money flow clean.
 
-- **Option A (Professional)**: Take your Udyam Certificate to a bank (HDFC/ICICI/Kotak) and open a **Current Account** in the name of **AUTONOMOUS.REV.**
+- **Option A (Professional)**: Take your Udyam Certificate to a bank (HDFC/ICICI/Kotak) and open a **Current Account** in the name of **AutoLeadForce**
 - **Option B (Zero-Cost)**: Create a separate **Savings Account** (or a dedicated "Folder" in certain mobile banks) to only receive client payments. 
 
 ---

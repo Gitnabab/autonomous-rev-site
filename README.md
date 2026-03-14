@@ -1,10 +1,10 @@
-# 🚀 Antigravity — Zero-Cost Agency Launch
+# 🚀 AutoLeadForce — Zero-Cost Agency Launch
 
 > Premium websites for local businesses. Free to start. Paid to grow.
 
 ## What Is This?
 
-This is the command center for **Antigravity** — a web agency that builds stunning, mobile-first websites for local Indian businesses at **zero upfront cost**, then earns through maintenance, domain setup, SEO, and automation add-ons.
+This is the command center for **AutoLeadForce** — a web agency that builds stunning, mobile-first websites for local Indian businesses at **zero upfront cost**, then earns through maintenance, domain setup, SEO, and automation add-ons.
 
 ## The Strategy (Razor / Blade)
 

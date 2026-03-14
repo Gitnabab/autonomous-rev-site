@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Global Pest Control",
+    "phone": "+91 98765 43210",
+    "rating": 4.2,
+    "reviews": 150,
+    "address": "Andheri East, Mumbai"
+  },
+  {
+    "name": "EcoSafe Solutions",
+    "phone": "+91 87654 32109",
+    "rating": 3.8,
+    "reviews": 45,
+    "address": "Bandra West, Mumbai"
+  }
+]

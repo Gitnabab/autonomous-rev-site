@@ -1,0 +1,53 @@
+{
+    "businessName": "Orion Pest Solutions",
+    "ownerName": "Nabab",
+    "city": "Kolkata",
+    "industry": "Pest Control",
+    "languages": [
+        "English",
+        "Bengali",
+        "Banglish",
+        "Hindi",
+        "Hinglish"
+    ],
+    "services": [
+        {
+            "name": "General Pest Control (Cockroaches, Ants)",
+            "prices": {
+                "1BHK": 800,
+                "2BHK": 1100,
+                "3BHK": 1500
+            }
+        },
+        {
+            "name": "Termite Control (High Ticket)",
+            "prices": {
+                "min": 2500,
+                "max": 3500
+            },
+            "note": "Always offer a FREE inspection for termites"
+        },
+        {
+            "name": "Bed Bugs",
+            "prices": {
+                "1BHK": 1500,
+                "2BHK": 2200
+            }
+        }
+    ],
+    "serviceAreas": [
+        "All over Kolkata",
+        "Rajarhat",
+        "Salt Lake",
+        "Jadavpur",
+        "Alipore",
+        "New Town"
+    ],
+    "discountPolicy": {
+        "allowed": false,
+        "maxDiscountPercent": 0,
+        "note": "No discounts permitted. Quote only listed prices."
+    },
+    "firstTouchMessage": "Hi! This is {ownerName} from {businessName}. I saw we just missed your call—apologies, my technicians are currently on a job. How can I help you today? Do you need a quote for an apartment or an office?",
+    "bookingGoal": "Schedule an inspection visit or provide a quote based on size/pest type."
+}

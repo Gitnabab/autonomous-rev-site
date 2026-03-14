@@ -1,0 +1,21 @@
+[Post Type: Education / Authority]
+[Platform: LinkedIn]
+
+Headline: Your "Desktop-First" website is killing your rank. 📉
+
+Fact: Over 70% of local searches in India happen on a mobile device under varying network conditions.
+
+If your website was designed for a 15-inch laptop first, and "adapted" for mobile, you are being penalized by Google. 
+
+AutoLeadForce websites are built with a "Mobile-First, Brutalist" design language. 
+- No heavy assets.
+- Lightning-fast loading.
+- One-click contact.
+
+We don't build websites for designers. We build them for users who have 5 seconds of attention span. 
+
+Check your site speed today. If it's not a 90+, you're losing money.
+
+See what a 98/100 feels like: https://autoleadforce.vercel.app
+
+#MobileFirst #WebDesign #SEO #GoogleRanking #AutoLeadForce

@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Orion Pest Solutions",
+        "phone": "+91 94136 86496",
+        "niche": "Pest Control",
+        "address": "Kolkata",
+        "highlights": "4.8 rating, 1,166 reviews"
+    },
+    {
+        "name": "Goodbye Pest Control",
+        "phone": "+91 33 2358 1234",
+        "niche": "Pest Control",
+        "address": "Salt Lake Sector 5",
+        "highlights": "4.8 rating, 836 reviews"
+    },
+    {
+        "name": "Suraksha Diagnostics",
+        "phone": "+91 33 6619 1000",
+        "niche": "Diagnostic Center",
+        "address": "Salt Lake Sector III",
+        "highlights": "Market leader in Salt Lake"
+    },
+    {
+        "name": "Quadra Diagnostics",
+        "phone": "+91 62908 21944",
+        "niche": "Diagnostic Center",
+        "address": "Newtown",
+        "highlights": "WhatsApp enabled, Newtown expert"
+    },
+    {
+        "name": "Prime Pest Control",
+        "phone": "+91 79760 47244",
+        "niche": "Pest Control",
+        "address": "Jadavpur",
+        "highlights": "4.9 rating, 396 reviews"
+    }
+]

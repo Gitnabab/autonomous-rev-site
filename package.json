@@ -1,5 +1,5 @@
 {
-  "name": "antigravity-agency",
+  "name": "autoleadforce",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -7,22 +7,34 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start:whatsapp": "tsx services/whatsapp-bot/index.ts"
   },
   "dependencies": {
+    "@google/genai": "^1.44.0",
+    "@pinecone-database/pinecone": "^7.1.0",
     "clsx": "^2.1.1",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
     "framer-motion": "^11.5.4",
     "lucide-react": "^0.441.0",
+    "openai": "^6.27.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "tailwind-merge": "^2.5.2"
+    "tailwind-merge": "^2.5.2",
+    "twilio": "^5.12.2"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.0",
+    "@types/express": "^5.0.6",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^5.1.4",
+    "localtunnel": "^2.0.2",
+    "puppeteer": "^24.38.0",
+    "serve": "^14.2.6",
     "tailwindcss": "^4.0.0",
+    "tsx": "^4.21.0",
     "typescript": "^5.5.3",
     "vite": "^5.4.1"
   }

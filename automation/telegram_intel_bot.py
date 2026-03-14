@@ -16,7 +16,7 @@ def send_intel_alert(message):
     url = f"https://api.telegram.org/bot{API_TOKEN}/sendMessage"
     payload = {
         "chat_id": CHAT_ID,
-        "text": f"🚨 **INTEL ALERT: AUTONOMOUS.REV.**\n\n{message}",
+        "text": f"🚨 **INTEL ALERT: AutoLeadForce**\n\n{message}",
         "parse_mode": "Markdown"
     }
     

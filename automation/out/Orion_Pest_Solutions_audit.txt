@@ -1,0 +1,16 @@
+REPUTATION AUDIT REPORT: Orion Pest Solutions
+----------------------------------------
+City: Mumbai
+Current Rating: 3.5 ⭐
+Total Reviews: 12
+Ranking Issue: Increase review count by 50 to improve ranking in Local Pack.
+
+Identified Gaps:
+- [ ] No Website Link
+- [ ] No Professional Photos
+- [ ] Low Review Velocity
+
+Action Plan:
+1. Claim GMB Profile (if not already)
+2. Add professional photos of the team and work.
+3. Implement WhatsApp Review Automator (AutoLeadForce Service).

@@ -1,4 +1,4 @@
-# AUTONOMOUS.REV. — Financial Setup Guide
+# AutoLeadForce — Financial Setup Guide
 
 To automate your revenue, please complete these two setups. 
 
@@ -9,7 +9,7 @@ Used for professional, automated invoicing and tracking payments. **Free Forever
 
 1.  **Register**: Go to [Zoho Invoice Signup](https://www.zoho.com/in/invoice/signup/).
 2.  **Organization Info**:
-    *   **Org Name**: AUTONOMOUS.REV.
+    *   **Org Name**: AutoLeadForce
     *   **Currency**: INR
 3.  **Branding**:
     *   Upload your logo (if available).
