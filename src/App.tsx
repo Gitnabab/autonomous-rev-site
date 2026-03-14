@@ -1,3 +1,4 @@
+// Build Trigger: Phase 5 - Elite Deployment v2
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { clsx, type ClassValue } from 'clsx';
