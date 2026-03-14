@@ -488,8 +488,12 @@ const PricingCard = ({ tier, name, price, period, features, highlighted, accent 
                                 ₹{(() => {
                                     const numeric = parseFloat(price.replace('₹', '').replace('k', '').replace('L', ''));
                                     const isLakh = price.includes('L');
-                                    const val = isLakh ? numeric * 100 : numeric;
-                                    return Math.round(val / 0.4) + (isLakh ? '' : 'k');
+                                    const valInK = isLakh ? numeric * 100 : numeric;
+                                    const standardPriceInK = Math.round(valInK / 0.4);
+                                    if (isLakh) {
+                                        return (standardPriceInK / 100).toFixed(2).replace(/\.00$/, '') + 'L';
+                                    }
+                                    return standardPriceInK + 'k';
                                 })()}
                             </span>
                         </div>
