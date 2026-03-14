@@ -490,7 +490,7 @@ const PricingCard = ({ tier, name, price, period, features, highlighted, accent 
                                     const isLakh = price.includes('L');
                                     const valInK = isLakh ? numeric * 100 : numeric;
                                     const standardPriceInK = Math.round(valInK / 0.4);
-                                    if (isLakh) {
+                                    if (isLakh || standardPriceInK >= 100) {
                                         return (standardPriceInK / 100).toFixed(2).replace(/\.00$/, '') + 'L';
                                     }
                                     return standardPriceInK + 'k';
@@ -533,7 +533,7 @@ const Pricing = () => (
                 <PricingCard
                     tier="Tier 01: Growth"
                     name="Core Engine"
-                    price="₹49k"
+                    price="₹19.6k"
                     period="month"
                     features={[
                         'High-Converting Local Website',
@@ -548,7 +548,7 @@ const Pricing = () => (
                 <PricingCard
                     tier="Tier 02: Dominance"
                     name="Market Dominator"
-                    price="₹99k"
+                    price="₹39.6k"
                     period="month"
                     features={[
                         'Everything in Growth, plus:',
@@ -564,7 +564,7 @@ const Pricing = () => (
                 <PricingCard
                     tier="Tier 03: Elite"
                     name="The Monopoly"
-                    price="₹1.9L"
+                    price="₹76k"
                     period="month"
                     features={[
                         'Everything in Dominator, plus:',
